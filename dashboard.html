@@ -9,6 +9,138 @@
     </head>
     
     <body>
+        <div class="nav">
+            <li><a href="index.thml">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="faq.html">Frequently Asked Questions</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </div>
+
+        
+        <center><h1>Dashboard</h1>
+        <table>
+            <tr>
+              <th></th>
+              <th> Course  </th>
+              <th> Exam </th>
+              <th> Credits you can earn<br>(EC)</th>
+              <th> Grade</th>
+            </tr>
+            <tr>
+              <td>Quartile 1</td>
+              <td>Program- & Career Orientation</td>
+              <td>TOETS01</td>
+              <td>2.5</td>
+              <td>-</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td> Computer Science Basics</td>
+                <td>TOETS01 </td>
+                <td>5</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>IT Personality Project Week 1</td>
+                <td>TOETS01</td>
+                <td>1.25</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>IT Personality 1</td>
+                <td>TOETS01</td>
+                <td>1.25</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Quartile 2</td>
+                <td>Object-Oriented programming</td>
+                <td>TOETS01<br>TOETS02</td>
+                <td>10</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Quartile 3</td>
+                <td>Framework Development 1</td>
+                <td>TOETS01</td>
+                <td>5</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Framework Project 1 </td>
+                <td>TOETS01<br>TOETS02<br>TOETS03</td>
+                <td>7.5</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Quartile 4</td>
+                <td> Framework Project 2</td>
+                <td>TOETS01<br>TOETS02<br>TOETS03</td>
+                <td>10</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>IT Personality International week</td>
+                <td>TOETS01 </td>
+                <td>1.25</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td> IT Personality 2</td>
+                <td>TOETS01</td>
+                <td>1.25</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Personal Professional Development: Exploration</td>
+                <td>TOETS01<br>TOETS02</td>
+                <td>12.5</td>
+                <td>-</td>
+            </tr>
+          </table><br>
+          <br><h2>NBSA boundary VS My study progress</h2>
+          <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+          <script>
+          const xValues = [2.5,5,5,10,10,10,2.5,12.5,2.5];
+          
+          new Chart("myChart", {
+            type: "line",
+            data: {
+              labels: xValues,
+              datasets: [{ 
+                data: [45,45,45,45,45,45,45,45,45],
+                borderColor: "red",
+                fill: false
+              }, { 
+                data: [2.5,7.5,12.5,22.5,32.5,42.5,45,57.5,60],
+                borderColor: "green",
+                fill: false
+              }]
+            },
+            options: {
+              legend: {display: false}
+            }
+          });
+          </script>
+          <p style="color: red;">Negative Binding Study Advice (NBSA)</p> 
+          <p style="color: green;">Study progress</p>
+    </center>
+
+        <aside>
+            <br><a href="https://hz.nl/en/about-hz/organisation/regulations-and-documents">The HZ HBO-ICT Course and Examination Regulations</a>
+            <br><a href="https://teams.microsoft.com/_#/school/teams-grid/General?ctx=teamsGrid">The Teams environment</a>
+            <br><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2022-2023/IR-CER-HZ-B-HBO-ICT-full-time-2022-2023-DEF2.pdf">The Implementation Regulations</a>
+            <br><a href="https://glaze-donut-5a5.notion.site/PCO1en-Your-Showcase-Website-7bc8c340f66047d0b49b83e8dc44ba23">Learn enviroment</a>
+            <br><a href="https://hz.osiris-student.nl/#/voortgang/">MyHZ study progress</a>
+            <br><a href="https://github.com/HZ-HBO-ICT">Github environment</a>
+        </aside>
 
     </body>
 </html>
