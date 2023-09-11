@@ -1,46 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UFT-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Comptible" content="ie=edge">
-        <link rel="stylesheet" href="profile.css">
-        <title>My Profile</title>
-    </head>
 
-    <body background="star.jpg" text="ffffff" style="font-family:garamond">
-      <div class="nav">
-        <li><a href="index.thml">Home</a></li>
-        <li><a href="profile.html">Profile</a></li>
-        <li><a href="dashboard.html">Dashboard</a></li>
-        <li><a href="faq.html">Frequently Asked Questions</a></li>
-        <li><a href="blog.html">Blog</a></li>
-      </div>
+<head>
+  <meta charset="UFT-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Comptible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>My Profile</title>
+</head>
 
-        <h1 > Personal Information</h1>    
-      <div>   
-        <text>Name: Sabrina Gavazova</text>
-        <text>Age: 18 years old </text>
-        <text>Country: Bulgaria</text></div> 
-        <h2>Extra-curricular activities</h2>
-        <text>These activities thought me to be more organized and open minded.</text>
+<body>
+  <header>
+    <div id="nav">
+      <form action="index.html">
+        <input type="submit" value="Home" />
+      </form>
 
-        <ul><img src="books.jpg" width="235" height="240" align="right">
-        <img src="cat.jpg" width="235" height="240"align="right">
-        
-            <li>Online courses</li>
-             <i>They helped me find my passion and interest.</i>
-            <li>Hobies</li>
-            <i>They help me relax after a stressful day.</i>
-        </ul>
+      <button type="button" id="current">Profile</button>
 
-        <aside>
-          <br><a href="https://hz.nl/en/about-hz/organisation/regulations-and-documents">The HZ HBO-ICT Course and Examination Regulations</a>
-          <br><a href="https://teams.microsoft.com/_#/school/teams-grid/General?ctx=teamsGrid">The Teams environment</a>
-          <br><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2022-2023/IR-CER-HZ-B-HBO-ICT-full-time-2022-2023-DEF2.pdf">The Implementation Regulations</a>
-          <br><a href="https://glaze-donut-5a5.notion.site/PCO1en-Your-Showcase-Website-7bc8c340f66047d0b49b83e8dc44ba23">Learn enviroment</a>
-          <br><a href="https://hz.osiris-student.nl/#/voortgang/">MyHZ study progress</a>
-          <br><a href="https://github.com/HZ-HBO-ICT">Github environment</a>
-      </aside>
-    </body>
-</html> 
+      <form action="dashboard.html">
+        <input type="submit" value="Dashboard" />
+      </form>
+
+      <form action="blog.html">
+        <input type="submit" value="Blog" />
+      </form>
+
+      <form action="faq.html">
+        <input type="submit" value="FAQ" />
+      </form>
+    </div>
+  </header>
+
+  <main>
+    <section>
+    <div class="pro">
+      <h1> Personal Information</h1>
+      <h3>(the boring things)</h3>
+    
+      <text>Name: Sabrina Gavazova</text>
+      <text>Age: 18 years old </text>
+      <text>Country: Bulgaria</text>
+    </div>
+    </section>
+
+    <section>
+    <div class="pro">
+    <h2>Hobies</h2>
+    <text>These activities thought me to be more organized and open minded.</text>
+
+    <ul>
+      <li>Reading Books</li>
+       <i>they help open my mind for new perspective</i>
+      <li>TV Shows</li>
+       <i>Shadow and Bone</i>
+      <li>Formula 1</li>
+       <i>my favorite sport that helps me relax</i>
+      <li>Traveling</li>
+       <i>The Nederlands, The UK, Germany, Greece, Tutkey</i>
+    </ul>
+    </div>
+    </section>
+
+    <section>
+    <div class="img">
+      <h3>An inside look of me studying</h3>
+      <img src="catmeme.jpg">
+      <img src="memecat.jpg">
+      <img src="home 2.jpg">
+    </div>
+    </section>
+  </main>
+
+  <aside>
+    <br><a href="https://hz.nl/en/about-hz/organisation/regulations-and-documents">Course and Examination Regulations</a>
+    <br><a href="https://teams.microsoft.com/_#/school/teams-grid/General?ctx=teamsGrid">Teams</a>
+    <br><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2022-2023/IR-CER-HZ-B-HBO-ICT-full-time-2022-2023-DEF2.pdf">Implementation Regulations</a>
+    <br><a href="https://glaze-donut-5a5.notion.site/PCO1en-Your-Showcase-Website-7bc8c340f66047d0b49b83e8dc44ba23">Learn</a>
+    <br><a href="https://hz.osiris-student.nl/#/voortgang/">MyHZ</a>
+    <br><a href="https://github.com/HZ-HBO-ICT">GitHub</a>
+    <img src="logo.jpg" width="150" height="45">
+</aside>
+</body>
+
+</html>

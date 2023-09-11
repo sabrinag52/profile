@@ -1,23 +1,24 @@
-aside{s
+aside{
+    height: 100%;
     width: 180px;
     position: fixed;
     right: 0;
     top:0;
-    background-color: #60a361;
+    background-color: white;
+    text-align: center;
+    border-width: 255pc;
+    border-color: black;
 }
 
 
-header{
-    box-align: center;
-    position: fixed;
-    width: 50%;
-    height: 50%;    
-}
+
 
 #nav{
-    position: fixed;
-    left: 8%;
+    position: relative;
+    left: 0%;
+    right: 0%;
     border-top: 0;
+    background-color: black;
 }
 form{
     display: inline;
@@ -35,11 +36,11 @@ input[type=submit]:hover{
 
 #current{
     padding: 10px;
-    background-color: rgb(223, 252, 242);
-    border:none;
+    background-color: white;
+    border:black;
 }
 
+.text{
+    background-color: #97BC62;
 
-
-
- 
+}
