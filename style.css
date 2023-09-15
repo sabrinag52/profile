@@ -1,46 +1,185 @@
-aside{
+body {
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 3pc;
+    margin-right: 25%;
+    margin-bottom: 0px;
+    margin-left: 18%;
+    padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+main {
+    margin-top: 3pc;
+}
+
+
+aside {
     height: 100%;
     width: 180px;
     position: fixed;
     right: 0;
-    top:0;
-    background-color: white;
+    top: 0;
+    background-color: #ddceb8;
+}
+
+.aside {
+    margin-bottom: 0;
     text-align: center;
-    border-width: 255pc;
-    border-color: black;
 }
 
 
-
-
-#nav{
+#nav {
+    height: fit-content;
     position: relative;
-    left: 0%;
-    right: 0%;
-    border-top: 0;
-    background-color: black;
+    margin: 0;
+    top: 0;
 }
-form{
+
+form {
     display: inline;
-    margin: 10px;
 }
+
 input[type=submit] {
     padding: 10px;
-    background-color: aquamarine;
-    border: none;
+    background-color: #ddceb8;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    ;
 }
 
-input[type=submit]:hover{
+input[type=submit]:hover {
     background-color: white;
 }
 
-#current{
+#current {
     padding: 10px;
     background-color: white;
-    border:black;
+    border-radius: 10px;
+    border-color: #d5b98e;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    ;
 }
 
-.text{
-    background-color: #97BC62;
 
+
+.img {
+    block-size: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.h {
+    position: absolute;
+    top: 180px;
+    left: fit-content;
+    font-family: 'Dancing Script', cursive;
+    font-size: 23px;
+    color: black;
+    text-shadow: 1px 1px 1px white;
+}
+
+
+.faq {
+    width: 300px;
+    float: left;
+    margin-left: 3pc;
+    margin-right: 3pc;
+    margin-top: 1pc;
+    margin-bottom: 1pc;
+    box-sizing: border-box;
+}
+
+fieldset {
+    background-color: #ddceb8;
+    max-width: 500px;
+    height: 130px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.pro {
+    text-align: center;
+    background-color: #ddceb8;
+    border-radius: 12px;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.hobies {
+    text-align: center;
+    background-color: #ddceb8;
+    border-radius: 12px;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.about{
+    text-align: center;
+    background-color: #ddceb8;
+    border-radius: 12px;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+b {
+    font-size: 25px;
+}
+
+table,
+th,
+td {
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #ddceb8;
+    background-color: #ebe1d0;
+    border-collapse: collapse;
+    text-align-last: center;
+    vertical-align: middle;
+}
+
+#ar {
+    align-items: center;
+}
+
+.post {
+    text-align: center;
+    background-color: #ddceb8;
+    border-radius: 12px;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.text {
+    text-align: center;
+    background-color: #ddceb8;
+    border-radius: 12px;
+    font-size: 17px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.index{
+    align-items: center;
+}
+
+.anita{
+    text-align: center;
+    background-color: #ddceb8;
+    border-radius: 12px;
+    font-size: 17px;
+    margin-bottom: 30px;
 }
