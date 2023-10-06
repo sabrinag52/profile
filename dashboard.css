@@ -18,7 +18,6 @@ aside {
     height: 100%;
     width: 155px;
     position: fixed;
-    padding-left: 0px;
     right: 0;
     top: 0;
     background-color: #4A6741;
@@ -26,7 +25,6 @@ aside {
 }
 
 .aside {
-    padding-left: 0px;
     align-self: flex-end;
 }
 
@@ -45,7 +43,6 @@ ul {
 nav {
     position: relative;
     width: 100%;
-    height: fit-content;
     padding-top: 1%;
     padding-bottom: 1%;
     display: block;
@@ -75,75 +72,64 @@ a:visited {
     color: black;
     text-decoration: none;
 }
- 
-h1{
+
+h1 {
+    text-align: center;
+    margin-top: 0%;
+}
+
+.classtable {
+    background-color: rgba(137, 171, 126, 0.3);
+    margin: auto;
     margin-top: 2pc;
-    text-align: center;
-}
-
-.center{
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.section1{
-    background-color:rgba(137, 171, 126, 0.5);
-    margin: auto;
-    padding: 25px;
-    width: 650px;
-    height: fit-content;
+    padding: 20px;
+    width: 50pc;
+    height: auto;
     border-radius: 2pc;
-    font-size: 20px;
+    font-size: 18px;
 }
 
-.hobiesimg{
-    float: right; 
-    margin: 5px;
+table,
+th,
+td {
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #6C965F;
+    background-color: #89AB7E;
+    border-collapse: collapse;
+    vertical-align: middle;
 }
 
-.section2{
-    background-color:rgba(137, 171, 126, 0.5);
-    margin: auto;
-    margin-top: 2%;
-    padding: 25px;
-    width: 650px;
-    height: fit-content;
-    border-radius: 2pc;
-    font-size: 20px;
-    ul{
-        list-style-type:circle;
-        text-align: left;
-    }
-}
-
-h4{
+h3{
     margin: 0;
 }
 
-.section3{
-    background-color:rgba(137, 171, 126, 0.5);
+.back {
     margin: auto;
-    margin-top: 2%;
-    padding: 25px;
-    width: 650px;
-    height: fit-content;
-    border-radius: 2pc;
-    font-size: 18px;
+    margin-top: 2pc;
+    padding: 15px;
+    width: 55%;
+    border-radius: 1pc;
+    text-align: center;
+    background-color: rgba(137, 171, 126, 0.3);
 }
 
-.gotse{
-    float: right; 
-    margin: 5px;
+.bar {
+    margin: auto;
+    width: 85%;
+    height: 20px;
+    border: 2px solid;
+    border-radius: 10px;
 }
 
-.section4{
-    background-color:rgba(137, 171, 126, 0.5);
-    margin: auto;
-    margin-top: 2%;
-    padding: 25px;
-    width: 650px;
-    height: fit-content;
-    border-radius: 2pc;
-    font-size: 18px;
+.passing {
+    border: 1px solid;
+    height: 100%;
+    width: 2px;
+    margin-left: 75%;
+}
+
+.passing::before {
+    content: "45EC";
+    position: absolute;
 }

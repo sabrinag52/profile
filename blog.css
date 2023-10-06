@@ -28,16 +28,16 @@ aside {
     align-self: flex-end;
 }
 
-ul {
-    padding-left: 0px;
-    list-style-type: none;
-    text-align: center;
-}
-
 .sabrina{
     float: right;
     padding-right: 10%;
     margin: auto;
+}
+
+ul {
+    padding-left: 0px;
+    list-style-type: none;
+    text-align: center;
 }
 
 nav {
@@ -73,38 +73,13 @@ a:visited {
     text-decoration: none;
 }
 
-.section1{
+fieldset {
+    background-color: #89AB7E;
+    border-radius: 1pc;
+    width: 600px;
+    height: 80px;
     margin: auto;
-    margin-top: 2%;
-    width: 690px;
-    height: fit-content;
-    position: relative;
-    text-align: center;
-    img{
-        border-radius: 2pc;
-        filter: blur(1px);
-    }
-}
-
-.h{
-    color: white;
-    font-size: 28px;
-    text-shadow: -2px -1px 0 gray;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.section2{
-    background-color:rgba(137, 171, 126, 0.5);
-    margin: auto;
-    margin-top: 2%;
-    padding: 25px;
-    width: 650px;
-    height: fit-content;
-    border-radius: 2pc;
-    font-size: 20px;
+    margin-top: 1%;
     a:link {
         color: black;
         text-decoration: underline;
@@ -113,27 +88,4 @@ a:visited {
         color: black;
         text-decoration: underline;
     }
-}
-
-.section3{
-    background-color:rgba(137, 171, 126, 0.5);
-    margin: auto;
-    margin-top: 2%;
-    padding: 25px;
-    width: 650px;
-    height: fit-content;
-    border-radius: 2pc;
-    font-size: 20px;
-    a:link {
-        color: black;
-        text-decoration: underline;
-    }
-    a:visited {
-        color: black;
-        text-decoration: underline;
-    }
-}
-.anita{
-    float: right; 
-    margin: 5px;
 }
